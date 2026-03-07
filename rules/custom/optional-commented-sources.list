@@ -1,0 +1,3 @@
+# RULE-SET,https://ruleset.skk.moe/List/non_ip/reject.conf,REJECT,extended-matching
+# DOMAIN-SET,https://ruleset.skk.moe/List/domainset/reject.conf,REJECT
+# RULE-SET,https://ruleset.skk.moe/List/non_ip/global.conf,Node,extended-matching
