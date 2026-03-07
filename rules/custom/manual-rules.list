@@ -1,7 +1,0 @@
-IP-CIDR,17.248.152.145/24,Node,no-resolve
-IP-CIDR,17.248.152.113/24,Node,no-resolve
-IP-CIDR,8.8.8.8/32,REJECT,no-resolve
-DOMAIN,ios.prod.cloud.netflix.com,REJECT
-DOMAIN,appboot.netflix.com,REJECT
-DOMAIN,ios.ngp.prod.cloud.netflix.com,REJECT
-IP-CIDR,95.161.76.100/31,REJECT,pre-matching,no-resolve
