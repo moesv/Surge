@@ -1,0 +1,18 @@
+name: Sync Surge Rules
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "20 2 * * *" # 每天 10:20 (Asia/Shanghai)
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Sync rules
+        run: bash scripts/sync-rules.sh
