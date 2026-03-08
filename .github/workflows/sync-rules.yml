@@ -3,7 +3,7 @@ name: Sync Surge Rules
 on:
   workflow_dispatch:
   schedule:
-    - cron: "20 2 * * *" # 每天 10:20 (Asia/Shanghai)
+    - cron: "20 2 */7 * *" # 每 7 天运行一次（约 10:20 Asia/Shanghai）
 
 jobs:
   sync:
